@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agende sua Mentoria</title>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1>
+                Mentoria
+            </h1>
+            <p>
+                Preencha o formulário abaixo para agendar a sua mentoria
+            </p>
+    
+        </header>
+        <div class="form-wrapper">
+            <form id="my-form">
+                <fieldset>
+                    
+                    <div class="fieldset-wrapper">
+                        <legend> Informações pessoais</legend>
+                        <div class="col">
+
+                    <div class="input-wrapper">
+                        
+                        <label class="scheduling-name" >Nome</label>
+                        <input type="text" required id="scheduling-name"/>
+
+                        
+                    </div>
+                    <div class="input-wrapper">
+                        <label class="scheduling-lastname
+                        ">Sobrenome</label>
+                        <input type="text" required id="scheduling-lastname
+                        "/>
+
+                    </div>
+                </div>
+                    <div class="input-wrapper">
+                        <label class="scheduling-email
+                        ">Email <span>(digite um email válido)</span></label>
+                        <input type="email" required id="scheduling-title"/>
+
+                    </div>
+                    <div class="input-wrapper">
+                        <label class="scheduling-middleName">Senha <span>(mínimo de 6 caracteres)</span></label>
+                        <input type="password" required id="scheduling-title"/>
+
+                    </div>
+                    
+                </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <div class="fieldset-wrapper">
+
+                        <legend> Informações do mentor</legend>
+                    <div class="input-wrapper">
+                        
+                        <label class="scheduling-mentorName">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                        <input type="text" required id="scheduling-mentorName"/>
+
+                </fieldset>
+
+                <fieldset>
+                    <div class="fieldset-wrapper">
+
+                        <legend> Seus horários disponíveis</legend>
+                            <fieldset>
+                                <span class="colTitle">Primeira mentoria</span>
+                                <div class="col-3">
+                                
+                                    <div class="input-wrapper">
+                                
+                                        <label class="scheduling-date">Data <span>(DD/MM/AAAA)</span></label>
+                                        <input type="date" id="scheduling-date"/>
+                                    </div>
+                                    
+                                    <div class="input-wrapper">
+                                
+                                        <label class="scheduling-for">Das</label>
+                                        <input type="time" id="scheduling-for"/>
+
+                                    </div>
+
+                                    <div class="input-wrapper">
+                        
+                                        <label class="scheduling-to">Até</label>
+                                        <input type="time" id="scheduling-to"/>
+                                    </div>
+                                    </div>
+                            
+                            </fieldset>
+                            <fieldset>
+                                <span class="colTitle">Segunda mentoria</span>
+                                <div class="col-3">
+                                
+                                    <div class="input-wrapper">
+                                
+                                        <label class="scheduling-date">Data <span>(DD/MM/AAAA)</span></label>
+                                        <input type="date" id="scheduling-date"/>
+                                    </div>
+                                    
+                                    <div class="input-wrapper">
+                                
+                                        <label class="scheduling-for">Das</label>
+                                        <input type="time" id="scheduling-for"/>
+
+                                    </div>
+
+                                    <div class="input-wrapper">
+                        
+                                        <label class="scheduling-to">Até</label>
+                                        <input type="time" id="scheduling-to"/>
+                                    </div>
+                                    </div>
+                            
+                            </fieldset>
+                        </div>
+                </fieldset>
+                    
+
+                
+            </form>
+            <footer>
+                <input class="button" type="submit" form="my-form" value="Salvar">
+            </footer>
+    </div>
+    
+    </div>
+</body>
+</html>
